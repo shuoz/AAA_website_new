@@ -1,0 +1,58 @@
+/* layout.css.scss
+*
+* Basic styling for the static pages
+*
+*/
+
+@import "site-branding";
+
+body {
+  font-family: $body-font;
+}
+
+h1, h2 {
+  color: $near-black;
+  font-family: $heading-font;
+}
+
+h3 {
+  color: $dark-green;
+  font: italic bold 20px $accent-font;
+}
+
+div#container {
+  display: block;
+  position: relative;
+  min-height: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: $khaki;
+}
+
+header#page_header {
+  background-color: $mid-green;
+  text-align: center;
+  color: $white;
+  padding: 10px 15px;
+}
+
+nav#utility {
+  float: right;
+  font-size: 1em;
+}
+
+section#main {
+  float: left;
+  width: 700px;
+  padding: 0 15px;
+}
+
+section#sidebar {
+  margin-left: 750px;
+  padding: 10px;
+}
+
+footer {
+  clear: left;
+}

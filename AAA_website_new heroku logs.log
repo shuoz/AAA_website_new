@@ -1,0 +1,260 @@
+C:\Sites\AAA_Website_new>heroku open
+The system cannot find the path specified.
+The system cannot find the path specified.
+Opening evening-lowlands-7324... The system cannot find the path specified.
+done
+
+C:\Sites\AAA_Website_new>heroku run rake db: migrate
+The system cannot find the path specified.
+The system cannot find the path specified.
+Running `rake db: migrate` attached to terminal... up, run.7115
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support
+ for these plugins will be removed in Rails 4.0. Move them out and bundle them i
+n your Gemfile, or fold them in to your app as lib/myplugin/* and config/initial
+izers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonr
+ails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required
+)> at /app/Rakefile:7)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support
+ for these plugins will be removed in Rails 4.0. Move them out and bundle them i
+n your Gemfile, or fold them in to your app as lib/myplugin/* and config/initial
+izers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonr
+ails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required
+)> at /app/Rakefile:7)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support
+ for these plugins will be removed in Rails 4.0. Move them out and bundle them i
+n your Gemfile, or fold them in to your app as lib/myplugin/* and config/initial
+izers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonr
+ails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required
+)> at /app/Rakefile:7)
+rake aborted!
+Don't know how to build task 'db:'
+
+(See full trace by running task with --trace)
+
+C:\Sites\AAA_Website_new>heroku logs
+The system cannot find the path specified.
+The system cannot find the path specified.
+2013-08-28T02:48:14.959162+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/connection_adapters/postgresql_adapter.rb:660
+:in `block in exec_query'
+2013-08-28T02:48:14.959162+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/connection_adapters/abstract_adapter.rb:280:i
+n `block in log'
+2013-08-28T02:48:14.959162+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/notifications/instrumenter.rb:20:in `instru
+ment'
+2013-08-28T02:48:14.959162+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/connection_adapters/abstract_adapter.rb:275:i
+n `log'
+2013-08-28T02:48:14.959162+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/connection_adapters/postgresql_adapter.rb:659
+:in `exec_query'
+2013-08-28T02:48:14.959162+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/connection_adapters/postgresql_adapter.rb:129
+2:in `column_definitions'
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/callbacks.rb:385:in `_run_process_action_ca
+llbacks'
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/callbacks.rb:81:in `run_callbacks'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/routing/route_set.rb:73:in `call'
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_controller/metal/instrumentation.rb:29:in `process_act
+ion'
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_controller/metal/rescue.rb:29:in `process_action'
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/railties/controller_runtime.rb:18:in `process
+_action'
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_controller/metal.rb:246:in `block in action'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/routing/route_set.rb:36:in `call'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/connection_adapters/postgresql_adapter.rb:855
+:in `columns'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/jou
+rney-1.0.4/lib/journey/router.rb:68:in `block in call'
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_controller/metal/params_wrapper.rb:207:in `process_act
+ion'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/connection_adapters/schema_cache.rb:12:in `bl
+ock in initialize'
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/abstract_controller/rendering.rb:45:in `process'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/routing/mapper.rb:43:in
+ `call'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/jou
+rney-1.0.4/lib/journey/router.rb:56:in `call'
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/abstract_controller/base.rb:121:in `process'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/model_schema.rb:229:in `yield'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/jou
+rney-1.0.4/lib/journey/router.rb:56:in `each'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/head.rb:14:in `call'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/war
+den-1.2.3/lib/warden/manager.rb:34:in `call'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/war
+den-1.2.3/lib/warden/manager.rb:35:in `block in call'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/model_schema.rb:229:in `columns'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/war
+den-1.2.3/lib/warden/manager.rb:34:in `catch'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/model_schema.rb:244:in `column_defaults'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/base.rb:482:in `initialize'
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/query_cache.rb:64:in `call'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/dev
+ise-3.0.3/app/controllers/devise/sessions_controller.rb:8:in `new'
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/callbacks.rb:405:in `_run__4339796236846871
+71__call__1914923601314497655__callbacks'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/dev
+ise-3.0.3/app/controllers/devise/sessions_controller.rb:8:in `new'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/callbacks.rb:405:in `__run_callback'
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+2013-08-28T02:48:14.959316+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/abstract_controller/base.rb:167:in `process_action'
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_controller/metal/rendering.rb:10:in `process_action'
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/routing/route_set.rb:608:in `call'
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/callbacks.rb:447:in `_run__3265340204997597
+82__process_action__1245907509612668939__callbacks'
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/callbacks.rb:405:in `__run_callback'
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_controller/metal/instrumentation.rb:30:in `block in pr
+ocess_action'
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rai
+lties-3.2.14/lib/rails/rack/logger.rb:32:in `call_app'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-1.4.5/lib/rack/etag.rb:23:in `call'
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rai
+lties-3.2.14/lib/rails/rack/logger.rb:16:in `block in call'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rai
+lties-3.2.14/lib/rails/rack/logger.rb:16:in `call'
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_controller/metal.rb:203:in `dispatch'
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/flash.rb:242:in `call'
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-1.4.5/lib/rack/runtime.rb:17:in `call'
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-1.4.5/lib/rack/lock.rb:15:in `call'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/static.rb:63:in `call'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-cache-1.2/lib/rack/cache/context.rb:136:in `forward'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-cache-1.2/lib/rack/cache/context.rb:245:in `fetch'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-cache-1.2/lib/rack/cache/context.rb:185:in `lookup'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-cache-1.2/lib/rack/cache/context.rb:66:in `call!'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rai
+lties-3.2.14/lib/rails/engine.rb:484:in `call'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rai
+lties-3.2.14/lib/rails/application.rb:231:in `call'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-1.4.5/lib/rack/content_length.rb:14:in `call'
+2013-08-28T02:48:14.961171+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rai
+lties-3.2.14/lib/rails/rack/log_tailer.rb:17:in `call'
+2013-08-28T02:48:14.961346+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+2013-08-28T02:48:14.961346+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/
+webrick/httpserver.rb:138:in `service'
+2013-08-28T02:48:14.961346+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/
+webrick/httpserver.rb:94:in `run'
+2013-08-28T02:48:14.961346+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/
+webrick/server.rb:295:in `block in start_thread'
+2013-08-28T02:48:14.961346+00:00 app[web.1]:
+2013-08-28T02:48:14.961346+00:00 app[web.1]:
+2013-08-28T02:48:14.958871+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG:
+:UndefinedTable: ERROR:  relation "users" does not exist
+2013-08-28T02:48:14.958871+00:00 app[web.1]: :             SELECT a.attname, for
+mat_type(a.atttypid, a.atttypmod),
+2013-08-28T02:48:14.958871+00:00 app[web.1]:                 ON a.attrelid = d.a
+drelid AND a.attnum = d.adnum
+2013-08-28T02:48:14.958871+00:00 app[web.1]:                      pg_get_expr(d.
+adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2013-08-28T02:48:14.958871+00:00 app[web.1]:                AND a.attnum > 0 AND
+ NOT a.attisdropped
+2013-08-28T02:48:14.959162+00:00 app[web.1]: ):
+2013-08-28T02:48:14.958871+00:00 app[web.1]:              WHERE a.attrelid = '"u
+sers"'::regclass
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+2013-08-28T02:48:14.959162+00:00 app[web.1]:              ORDER BY a.attnum
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/abstract_controller/callbacks.rb:18:in `block in process_acti
+on'
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/abstract_controller/callbacks.rb:17:in `process_action'
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+iverecord-3.2.14/lib/active_record/connection_adapters/abstract/connection_pool.
+rb:479:in `call'
+2013-08-28T02:48:14.960714+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/callbacks.rb:81:in `run_callbacks'
+2013-08-28T02:48:14.959693+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/notifications.rb:123:in `block in instrumen
+t'
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/notifications/instrumenter.rb:20:in `instru
+ment'
+2013-08-28T02:48:14.959860+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/notifications.rb:123:in `instrument'
+2013-08-28T02:48:14.960201+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ionpack-3.2.14/lib/action_dispatch/middleware/best_standards_support.rb:17:in `c
+all'
+2013-08-28T02:48:14.960391+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rac
+k-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+2013-08-28T02:48:14.960852+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/act
+ivesupport-3.2.14/lib/active_support/tagged_logging.rb:22:in `tagged'
+2013-08-28T02:48:14.990854+00:00 heroku[router]: at=info method=GET path=/users/
+sign_in host=evening-lowlands-7324.herokuapp.com fwd="69.253.254.168" dyno=web.1
+ connect=1ms service=138ms status=500 bytes=643
+
+C:\Sites\AAA_Website_new>
